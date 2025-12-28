@@ -22,7 +22,7 @@ Sıradan `Console.WriteLine` projelerinden sıkılanlar için **Clean Code** ve 
 
 ---
 
-## 🛠️ Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
 Bu projeyi bilgisayarınızda çalıştırmak için .NET SDK yüklü olmalıdır.
 
