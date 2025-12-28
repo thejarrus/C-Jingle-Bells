@@ -12,7 +12,7 @@ Sıradan `Console.WriteLine` projelerinden sıkılanlar için **Clean Code** ve 
 
 ---
 
-## 🚀 Özellikler (Why 200 IQ?)
+## 🚀 Özellikler
 
 * **🎵 BPM Tabanlı Ritim Motoru:** Rastgele bekleme süreleri (`Thread.Sleep`) yerine, şarkının BPM (Beats Per Minute) değerine göre hesaplanan matematiksel nota süreleri kullanıldı.
 * **🚫 No Magic Numbers:** Frekanslar ve süreler `Enum` ve `Constant` yapılarıyla yönetildi. Kodun içinde anlamsız sayılar göremezsiniz.
