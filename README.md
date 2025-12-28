@@ -12,13 +12,13 @@ Sıradan `Console.WriteLine` projelerinden sıkılanlar için **Clean Code** ve 
 
 ---
 
-## 🚀 Özellikler
+## Özellikler
 
-* **🎵 BPM Tabanlı Ritim Motoru:** Rastgele bekleme süreleri (`Thread.Sleep`) yerine, şarkının BPM (Beats Per Minute) değerine göre hesaplanan matematiksel nota süreleri kullanıldı.
-* **🚫 No Magic Numbers:** Frekanslar ve süreler `Enum` ve `Constant` yapılarıyla yönetildi. Kodun içinde anlamsız sayılar göremezsiniz.
-* **⚡ Bloklayıcı Ses Yönetimi:** Kesintisiz (Legato) bir deneyim için `Console.Beep` fonksiyonunun bloklayıcı özelliği kullanılarak "Staccato" etkisi yok edildi.
-* **✨ Flicker-Free Görsellik:** Konsol ekranındaki titremeyi (flickering) önlemek için özel render optimizasyonu yapıldı.
-* **🏗️ Modüler Yapı:** Şarkının "Verse" ve "Nakarat" kısımları ayrı listelerde tutulup `LINQ` ile dinamik olarak birleştirildi.
+* **BPM Tabanlı Ritim Motoru:** Rastgele bekleme süreleri (`Thread.Sleep`) yerine, şarkının BPM (Beats Per Minute) değerine göre hesaplanan matematiksel nota süreleri kullanıldı.
+* **No Magic Numbers:** Frekanslar ve süreler `Enum` ve `Constant` yapılarıyla yönetildi. Kodun içinde anlamsız sayılar göremezsiniz.
+* **Bloklayıcı Ses Yönetimi:** Kesintisiz (Legato) bir deneyim için `Console.Beep` fonksiyonunun bloklayıcı özelliği kullanılarak "Staccato" etkisi yok edildi.
+* **Flicker-Free Görsellik:** Konsol ekranındaki titremeyi (flickering) önlemek için özel render optimizasyonu yapıldı.
+* **Modüler Yapı:** Şarkının "Verse" ve "Nakarat" kısımları ayrı listelerde tutulup `LINQ` ile dinamik olarak birleştirildi.
 
 ---
 
@@ -45,7 +45,7 @@ Bu projeyi bilgisayarınızda çalıştırmak için .NET SDK yüklü olmalıdır
 
 ---
 
-## 🧠 Kodun Mimarisi
+## Kodun Mimarisi
 
 Sadece kopyala-yapıştır yapmadık, bir mimari kurduk:
 
