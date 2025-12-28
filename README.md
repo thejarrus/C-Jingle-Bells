@@ -59,3 +59,11 @@ enum Nota {
     Sus = 0, 
     C = 261, D = 294, E = 329, ... 
 }
+```
+
+## İletişim 
+Bu projenin yapım aşamasını ve diğer oyun geliştirme maceralarımı takip etmek için:
+
+* **Instagram:** @thejarrus
+* **TikTok:** @thejarrus_
+* **GitHub:** @thejarrus
