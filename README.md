@@ -12,7 +12,8 @@ Sıradan `Console.WriteLine` projelerinden sıkılanlar için **Clean Code** ve 
 
 ---
 
-## 🚀 Özellikler
+## 🚀 Özellikler (Why 200 IQ?)
+
 * **🎵 BPM Tabanlı Ritim Motoru:** Rastgele bekleme süreleri (`Thread.Sleep`) yerine, şarkının BPM (Beats Per Minute) değerine göre hesaplanan matematiksel nota süreleri kullanıldı.
 * **🚫 No Magic Numbers:** Frekanslar ve süreler `Enum` ve `Constant` yapılarıyla yönetildi. Kodun içinde anlamsız sayılar göremezsiniz.
 * **⚡ Bloklayıcı Ses Yönetimi:** Kesintisiz (Legato) bir deneyim için `Console.Beep` fonksiyonunun bloklayıcı özelliği kullanılarak "Staccato" etkisi yok edildi.
@@ -27,12 +28,12 @@ Bu projeyi bilgisayarınızda çalıştırmak için .NET SDK yüklü olmalıdır
 
 1.  **Projeyi Klonlayın:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[KullaniciAdin]/Console-Jingle-Bells.git
+    git clone [https://github.com/thejarrus/C-Jingle-Bells.git](https://github.com/thejarrus/C-Jingle-Bells.git)
     ```
 
 2.  **Klasöre Gidin:**
     ```bash
-    cd Console-Jingle-Bells
+    cd C-Jingle-Bells
     ```
 
 3.  **Çalıştırın:**
@@ -45,6 +46,7 @@ Bu projeyi bilgisayarınızda çalıştırmak için .NET SDK yüklü olmalıdır
 ---
 
 ## 🧠 Kodun Mimarisi
+
 Sadece kopyala-yapıştır yapmadık, bir mimari kurduk:
 
 ```csharp
